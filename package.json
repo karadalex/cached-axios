@@ -1,0 +1,32 @@
+{
+  "name": "cached-axios",
+  "version": "0.1.0",
+  "description": "Axios library modified for automatic API caching",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karadalex/cached-axios.git"
+  },
+  "keywords": [
+    "axios",
+    "api",
+    "caching",
+    "cache",
+    "api-caching",
+    "redis",
+    "lru"
+  ],
+  "author": "Alexios Karadimos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/karadalex/cached-axios/issues"
+  },
+  "homepage": "https://github.com/karadalex/cached-axios#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "lru-cache": "^6.0.0"
+  }
+}
